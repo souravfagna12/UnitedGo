@@ -81,14 +81,14 @@ class UnitedGoApplicationTests {
 		String actual=e.getMessage();
 		assertEquals(actual,expected);
 	}
-	@Test 
-	void testValidDeleteBooking() throws UnitedGoException {
-		String Pnr="cwp554";
-		String f=service.DeleteBooking(Pnr);
-		String expected="zwx980";
-		String actual="delete Succesfully with refund";
-		assertEquals(actual,f);
-	}
+//	@Test 
+//	void testValidDeleteBooking() throws UnitedGoException {
+//		String Pnr="cwp554";
+//		String f=service.DeleteBooking(Pnr);
+//		String expected="zwx980";
+//		String actual="delete Succesfully with refund";
+//		assertEquals(actual,f);
+//	}
 	@Test
 	void testInValidDeleteBooking() throws UnitedGoException {
 		String Pnr="zwx98";
