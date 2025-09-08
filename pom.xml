@@ -129,5 +129,11 @@
         </plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+<repository>
+<id>artifactory</id>
+<name>Capstone</name>
+<url>http://localhost:8081/artifactory/Capstone</url>
+</repository>
+</distributionManagement>
 </project>
